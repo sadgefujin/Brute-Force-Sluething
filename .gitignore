@@ -1,0 +1,25 @@
+# Ignore generated output files
+intruder_results.csv
+
+# Ignore sensitive files
+passwd.txt
+username.txt
+
+# Ignore dependency artifacts (if using dependency management)
+jython-standalone-2.7.4-javadoc.jar
+
+# Potentially ignore document files depending on their purpose
+# If these are generated reports or external documents, uncomment the lines below:
+# Brute Force Sleuth - Copy.pdf
+# Brute Force Sleuth.docx
+# T141.pdf
+
+# Ignore Python specific generated files
+__pycache__/
+*.pyc
+
+# Ignore OS specific files (example for macOS)
+.DS_Store
+
+# Ignore IDE specific files (example for VS Code)
+.vscode/
